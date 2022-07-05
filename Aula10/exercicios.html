@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios</title>
+    <style>
+        body{
+            background-color: rgba(111, 230, 230, 0.767);
+            font: normal arial 20pt;
+        }
+        div#area{
+           width: 200pt;
+           height: 200pt;
+            line-height: 200pt;
+            background-color: rgb(192, 159, 223);
+            text-align: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Praticando</h1>
+    <div id="area">Praticando Click</div>
+    <script>
+        var teste = window.document.getElementById('area')
+        teste.addEventListener('click', clicar)
+        teste.addEventListener('mouseout', sair)
+        teste.addEventListener('mouseenter', entrar)
+        function clicar(){
+            teste.innerText = 'Você Clicou com o mouse'
+            teste.style.background = 'rgb(96, 149, 196)'
+        }
+        function entrar(){
+            teste.innerText = 'Você entrou com o mouse'
+        }
+        function sair(){
+            teste.innerText = 'Você saiu com o mouse'
+            teste.style.background = 'rgb(192, 159, 223)'
+
+        }
+
+VideoColorSpace
+    </script>
+</body>
+</html>

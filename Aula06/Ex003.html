@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro Site</title>
+    <style>
+        body {
+            background-color: rgba(226, 226, 226, 0.986)  ;
+            font: normal 10pt arial;
+        }
+
+    </style>
+</head>
+<body>
+<h1>Aplicativo 1</h1>
+<p>Este é meu primeiro paragrafo</p>
+</body>
+<script>
+    var n1 = Number(window.prompt("Digite um numero: "))// o prompt ele retorna sempre um valor como string independente se é numero ou letras
+    var n2 = Number(window.prompt("Digite outro numero: "))// neste caso os dois valores são string. Deve ser feito uma conversão
+    var res = n1+n2
+    window.alert(`A soma entre ${n1} e ${n2} é : ${res}`)// o + serve tanto para adição quanto para concatenação e quando eu uso o ` ${} ` dentro de crase ele faz a mesma função do "+"
+</script>
+</html>

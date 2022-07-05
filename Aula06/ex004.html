@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font: normal, 20pt, arial;
+            color: rgb(0, 0, 0);
+            background-color: rgb(201, 191, 201);
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Este é seu primeiro texto </h1>
+
+
+
+
+    <script>
+        var nome = window.prompt('Qual é seu nome? ')
+        document.writeln(`Olá, ${nome}! seu nome tem ${nome.length} letras. </br>`) // este Document ira pegar oque tem dentro do write"escreva" e irá colocar no escobo do body. dentro do corpo do site
+        // o Length conta quantas letras tem atras do ponto neste caso será o nome.
+        // toUppercase() deixa strings maiusculas
+        // ToLowerCase() deixa strings minusculas lembrando de sempre usar () que serve pra instanciar o metodo
+        document.writeln(`o seu nome em maiusculo será ${nome.toUpperCase()}</br>`)
+        document.writeln(`O seu nome em minusculo será ${nome.toLowerCase()}`)
+        
+    </script>
+</body>
+</html>
