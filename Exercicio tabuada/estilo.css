@@ -20,3 +20,4 @@ font: normal 10pt italic;
 color: white;
 text-align: center;
 }
+select {  overflow:hidden; }    
